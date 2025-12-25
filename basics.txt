@@ -1,0 +1,20 @@
+pandas is a python package
+So think of it as a folder which has core,io,plotting,__init__.py
+
+Classes of pandas
+pd.DataFrame
+pd.Series
+pd.Index as well
+
+How to create object?
+
+df=pd.DataFrame({"name":["Swaraj","Sahoo"],"age":[20,25]})
+
+# In the above code we have created a dataframe object
+
+Then using the object, we can call the functions
+
+df.head()
+df.shape
+
+df.describe()
